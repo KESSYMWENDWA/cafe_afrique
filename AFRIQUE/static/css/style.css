@@ -1,0 +1,60 @@
+/* static/css/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.menu-items .item {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 200px;
+    text-align: center;
+}
+
+.menu-items .item h2 {
+    color: #333;
+    
+}
+/* CSS for styling menu images */
+.menu-items .item img {
+    width: 60px;        /* Set width to make images small */
+    height: 60px;       /* Set height for consistent appearance */
+    object-fit: cover;  /* Ensures the image fills the box without distortion */
+    border-radius: 8px; /* Adds rounded corners for a polished look */
+    margin-bottom: 10px; /* Adds spacing between the image and item text */
+}
+

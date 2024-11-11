@@ -1,0 +1,65 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+
+/* Menu Showcase Styling */
+.menu-showcase {
+    padding: 60px 30px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.menu-showcase h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px; /* Set a fixed height for consistent sizing */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin: 15px 0 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.menu-item p {
+    color: #777;
+    font-size: 1rem;
+}
+
+/* Add hover effect to menu items */
+.menu-item:hover {
+    transform: scale(1.05);
+}

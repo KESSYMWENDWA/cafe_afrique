@@ -1,0 +1,80 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar-brand a {
+    font-size: 1.5rem;
+    color: #f4c542;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Align nav-links horizontally and style them */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #f4c542;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Hide nav-links on smaller screens and add a toggle menu */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 30px;
+        background-color: #333;
+        padding: 10px;
+        width: 200px;
+    }
+
+    .nav-toggle-label {
+        display: block;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    /* Show nav-links when nav-toggle is checked */
+    .nav-toggle:checked + .nav-links {
+        display: flex;
+    }
+}
+
+.nav-toggle-label span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #fff;
+}

@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - CAFE AFRIQUE</title>
+    <link rel="stylesheet" href="{% static 'css/aboutus.css' %}"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <!-- About Us Section -->
+    <section class="about-us" id="about">
+        <div class="container">
+            <h1>About CAFE AFRIQUE</h1>
+            <p>Welcome to CAFE AFRIQUE! We are more than just a cafe; we are a place where passion for African flavors and traditions comes alive. Every cup of coffee, every meal served, celebrates Africa’s rich culinary heritage, crafted with love and authenticity.</p>
+            
+            <div class="about-image">
+                <img src="{% static 'images/cafe_interior.jpg' %}" alt="Cafe Interior">
+            </div>
+
+            <div class="mission-vision-values">
+                <div class="mv-section">
+                    <h2>Our Mission</h2>
+                    <p>To provide an authentic African cafe experience, celebrating the richness of our culture through food, drink, and ambiance.</p>
+                </div>
+                <div class="mv-section">
+                    <h2>Our Vision</h2>
+                    <p>To be a globally recognized cafe, known for bringing African flavors and warmth to people from all walks of life.</p>
+                </div>
+                <div class="mv-section">
+                    <h2>Our Values</h2>
+                    <p>Quality, authenticity, community, and hospitality form the foundation of everything we do at CAFE AFRIQUE.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

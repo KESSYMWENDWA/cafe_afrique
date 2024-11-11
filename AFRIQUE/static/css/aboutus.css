@@ -1,0 +1,58 @@
+/* About Us Styling */
+.about-us .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-us h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-image {
+    margin: 20px 0;
+}
+
+.about-image img {
+    width: 100%;          /* Keeps the image responsive to container width */
+    max-height: 300px;    /* Adjust the height to your preference */
+    object-fit: cover;    /* Ensures the image is nicely cropped if height exceeds max-height */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.mission-vision-values {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.mv-section {
+    flex: 1 1 300px;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.mv-section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.mv-section p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+}

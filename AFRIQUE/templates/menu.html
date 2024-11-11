@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - CAFE AFRIQUE</title>
+    <link rel="stylesheet" href="{% static 'css/menu.css' %}">
+</head>
+<body>
+
+    <!-- Menu Showcase Section -->
+    <section class="menu-showcase" id="menu">
+        <h2>Our Signature Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="{% static 'images/coffee.jpg' %}" alt="Coffee">
+                <h3>Rich Coffee</h3>
+                <p>Sourced from the finest African beans.</p>
+                <!-- Button linking to style.html -->
+                <a href="{% url 'style' %}" class="btn">View Details</a>
+            </div>
+            <div class="menu-item">
+                <img src="{% static 'images/pastry.jpg' %}" alt="Pastry">
+                <h3>Fresh Pastries</h3>
+                <p>Baked daily for a delicious start to your day.</p>
+                <!-- Button linking to style.html -->
+                <a href="{% url 'style' %}" class="btn">View Details</a>
+            </div>
+            <div class="menu-item">
+                <img src="{% static 'images/smoothie.jpg' %}" alt="Smoothie">
+                <h3>Exotic Smoothies</h3>
+                <p>Refreshing flavors inspired by African fruits.</p>
+                <!-- Button linking to style.html -->
+                <a href="{% url 'style' %}" class="btn">View Details</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

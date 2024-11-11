@@ -1,0 +1,118 @@
+<!-- templates/menu.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - CAFE AFRIQUE</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <main>
+        <section class="menu-showcase">
+            <h1>Our Menu</h1>
+
+            <!-- Coffee Section -->
+            <div class="menu-section">
+                <h2>Coffee Selection</h2>
+                <div class="menu-items">
+                    <div class="item">
+                        <img src="{% static 'images/espresso.jpg' %}" alt="Espresso">
+                        <h3>Espresso</h3>
+                        <p>Rich and bold, perfect for a strong coffee kick.</p>
+                        <p>Price: KSh 200</p>
+                    </div>
+                    <div class="item">
+                        <img src="{% static 'images/cappuccino.jpg' %}" alt="Cappuccino">
+                        <h3>Cappuccino</h3>
+                        <p>A classic Italian coffee with a rich, frothy texture.</p>
+                        <p>Price: KSh 250</p>
+                    </div>
+                    <div class="item">
+                        <img src="{% static 'images/latte.jpg' %}" alt="Latte">
+                        <h3>Latte</h3>
+                        <p>Smooth and creamy with steamed milk, topped with foam.</p>
+                        <p>Price: KSh 280</p>
+                    </div>
+                    <div class="item">
+                        <img src="{% static 'images/mocha.jpg' %}" alt="Mocha">
+                        <h3>Mocha</h3>
+                        <p>A blend of coffee and chocolate for a sweet experience.</p>
+                        <p>Price: KSh 300</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pastries Section -->
+            <div class="menu-section">
+                <h2>Pastries</h2>
+                <div class="menu-items">
+                    <div class="item">
+                        <img src="{% static 'images/croissant.jpg' %}" alt="Croissant">
+                        <h3>Croissant</h3>
+                        <p>Buttery, flaky pastry perfect for any time of day.</p>
+                        <p>Price: KSh 150</p>
+                    </div>
+                    <div class="item">
+                        <img src="{% static 'images/chocolate_muffin.jpg' %}" alt="Chocolate Muffin">
+                        <h3>Chocolate Muffin</h3>
+                        <p>Rich chocolate flavor, moist and delicious.</p>
+                        <p>Price: KSh 120</p>
+                    </div>
+                    <div class="item">
+                        <img src="{% static 'images/fruit_tart.jpg' %}" alt="Fruit Tart">
+                        <h3>Fruit Tart</h3>
+                        <p>A sweet tart filled with fresh, seasonal fruits.</p>
+                        <p>Price: KSh 200</p>
+                    </div>
+                    <div class="item">
+                        <img src="{% static 'images/cheese_danish.jpg' %}" alt="Cheese Danish">
+                        <h3>Cheese Danish</h3>
+                        <p>Flaky pastry with a creamy cheese filling.</p>
+                        <p>Price: KSh 180</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Smoothies Section -->
+            <div class="menu-section">
+                <h2>Smoothies</h2>
+                <div class="menu-items">
+                    <div class="item">
+                        <img src="{% static 'images/mango_passion.jpg' %}" alt="Mango Passion">
+                        <h3>Mango Passion</h3>
+                        <p>A tropical blend of mango and passion fruit.</p>
+                        <p>Price: KSh 250</p>
+                    </div>
+                    <div class="item">
+                        <img src="{% static 'images/berry_blast.jpg' %}" alt="Berry Blast">
+                        <h3>Berry Blast</h3>
+                        <p>A refreshing mix of strawberries, blueberries, and raspberries.</p>
+                        <p>Price: KSh 270</p>
+                    </div>
+                    <div class="item">
+                        <img src="{% static 'images/green_detox.jpg' %}" alt="Green Detox">
+                        <h3>Green Detox</h3>
+                        <p>A healthy blend of spinach, kale, apple, and ginger.</p>
+                        <p>Price: KSh 300</p>
+                    </div>
+                    <div class="item">
+                        <img src="{% static 'images/pineapple_coconut.jpg' %}" alt="Pineapple Coconut">
+                        <h3>Pineapple Coconut</h3>
+                        <p>A refreshing smoothie with pineapple and coconut milk.</p>
+                        <p>Price: KSh 280</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CAFE AFRIQUE. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
